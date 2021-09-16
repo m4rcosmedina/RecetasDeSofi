@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(248, 193, 187);
+}
+
+.card {
+    margin-top: 5%;
+    margin-left: 5%;
+    max-width: 80%;
+
+}
+.btn {
+    
+    margin-top: 10px;
+}
