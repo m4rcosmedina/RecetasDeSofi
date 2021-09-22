@@ -19,3 +19,21 @@ body {
 .btn {
     margin-top: 10px;
 }
+
+.logo:hover,
+ h5:hover {
+    opacity: 0.5;
+
+}
+
+.footer{
+
+    margin-top: 10%;
+}
+
+.usuario,
+.password {
+    border-color: black;
+    border-radius: 10px;
+    background-color: bisque;
+}
