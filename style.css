@@ -3,6 +3,11 @@ body {
     font-family: 'nunito', sans-serif;
 }
 
+
+
+
+}
+
 .card {
     display: flex;
     justify-content: center;
@@ -21,10 +26,16 @@ body {
 }
 
 .logo:hover,
- h5:hover {
+ h5:hover,
+ .iconoflecha:hover {
     opacity: 0.5;
 
 }
+
+.iconoflecha {
+    height: 50px;
+}
+
 
 .footer{
 
