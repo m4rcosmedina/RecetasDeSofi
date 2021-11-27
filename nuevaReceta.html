@@ -42,22 +42,22 @@
             <form id="formProducto">
             <div class="mb-3">
                 <label for="codigo" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="codigo" placeholder="no vives de ensalada">
+                <input type="text" class="form-control" id="nombreReceta" placeholder="no vives de ensalada">
 
                 <div class="invalid-feedback">Debe ingresar un titulo</div>
             </div>
             <div class="mb-3">
                 <label for="producto" class="form-label">Ingredientes</label>
-                <input type="text" class="form-control" id="producto" placeholder="Ej. Budin de resplaks">
+                <input type="text" class="form-control" id="ingredientesReceta" placeholder="Ej. Budin de resplaks">
             </div>
             <div class="mb-3">
                 <label for="producto" class="form-label">Paso a Paso</label>
-                <textarea class="form-control" id="descripcion" rows="3" > </textarea>
+                <textarea class="form-control" id="descripcionReceta" rows="3" > </textarea>
             </div>
           
             <div class="mb-3">
                 <label for="url" class="form-label">Imagen de portada</label>
-                <input type="text" class="form-control" id="url" placeholder="Ingresar una ruta">
+                <input type="text" class="form-control" id="urlReceta" placeholder="Ingresar una ruta">
             </div>
             <button class="btn btn-dark" type="submit">Guardar</button>
         </form>
@@ -72,6 +72,8 @@
 
 <footer class=" bg-light text-dark py-5 ">
     <section class="container">
+
+      <p id="cardRecetaNueva"></p>
    <div class="  row ">
       <div class=" col-sm-12 col-md-3 center">
         <a class="navbar-brand" href="index.html">
@@ -100,7 +102,7 @@
   </section>
   </footer>
 
-  <script src="/JS/recetas.js"> </script>
+  <script src="/JS/app.js"> </script>
 <script src="/JS/bootstrap.min.js"></script>
 </body>
 
